@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col gap-10 p-8">
+        <div className="min-h-screen flex flex-col gap-10 p-8">
             {/* Heading */}
             <h1 className="self-center text-5xl font-bold text-gray-800">About Me</h1>
 
@@ -18,7 +18,7 @@ const page = () => {
                 <h2 className="text-3xl font-semibold text-gray-800 mb-4 border-b-4 border-yellow-400 inline-block">Education</h2>
                 <div className="flex flex-col gap-6">
                     {/* Senior Secondary */}
-                    <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
+                    <div className="flex items-center gap-4 bg-green-400 shadow-md p-4 rounded-lg">
                         <img src="school.jpg" alt="School" className="w-24 h-24 object-cover rounded-lg border" />
                         <div>
                             <h3 className="text-xl font-bold text-gray-700">Senior Secondary</h3>
@@ -27,7 +27,7 @@ const page = () => {
                     </div>
 
                     {/* Bachelor's Degree */}
-                    <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
+                    <div className="flex items-center gap-4 bg-green-400 shadow-md p-4 rounded-lg">
                         <img src="cllg.jpg" alt="College" className="w-24 h-24 object-cover rounded-lg border" />
                         <div>
                             <h3 className="text-xl font-bold text-gray-700">B.Tech in Information Technology</h3>

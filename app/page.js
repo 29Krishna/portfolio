@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center p-8">
+    <div className="min-h-screen  flex flex-col justify-center items-center text-center p-8">
       {/* Name & Title (Properly Positioned Below Navbar) */}
       <div> {/* Adjust margin to push below navbar */}
         <h1 className="text-6xl font-extrabold text-gray-900">Krishna</h1>

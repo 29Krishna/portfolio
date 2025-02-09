@@ -3,8 +3,10 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className="bg-yellow-300 flex justify-between items-center p-4 shadow-lg">
-      <Link href={"/"}><div className="font-bold text-3xl text-gray-800">Portfolio</div></Link>
+    <nav className=" flex justify-between items-center p-4 shadow-lg">
+      <Link href={"/"}><div className="text-4xl font-extrabold text-yellow-700 tracking-wide">
+        KRISHNA's<span className="text-black"> | Portfolio</span>
+      </div></Link>
       <ul className="flex gap-6 mr-5 text-lg font-medium">
         <li>
           <Link href="/" className="hover:text-gray-700 transition duration-300">Home</Link>

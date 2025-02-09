@@ -3,12 +3,12 @@ import { FaGithub, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaLocationArrow
 
 const page = () => {
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col gap-12 p-8">
+        <div className="min-h-screen  flex flex-col gap-12 p-8">
             {/* Page Title */}
             <h1 className="text-center text-5xl font-bold text-gray-800">Contact Me</h1>
 
             {/* Contact Details Section - Now Much Wider */}
-            <div className="max-w-7xl mx-auto bg-white p-14 rounded-xl shadow-xl">
+            <div className="max-w-7xl mx-auto bg-yellow-100 p-14 rounded-xl shadow-xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
                     {/* Left Column - Contact Info */}
@@ -56,14 +56,15 @@ const page = () => {
                     {/* Right Column - Contact Form */}
                     <div>
                         <h2 className="text-3xl font-semibold text-gray-800 border-b-4 border-yellow-400 inline-block pb-2">Send a Message</h2>
-                        <form className="flex flex-col gap-6 mt-4">
-                            <input type="text" placeholder="Your Name" className="p-4 border rounded-lg w-full text-lg focus:outline-yellow-400" />
-                            <input type="email" placeholder="Your Email" className="p-4 border rounded-lg w-full text-lg focus:outline-yellow-400" />
-                            <textarea placeholder="Your Message" rows="5" className="p-4 border rounded-lg w-full text-lg focus:outline-yellow-400"></textarea>
-                            <button type="submit" className="bg-yellow-500 text-white text-lg px-8 py-3 rounded-lg hover:bg-yellow-600 transition">
+                        <form action="https://formsubmit.co/29krishna2004@gmail.com" method="POST" className="flex flex-col gap-4">
+                            <input type="text" name="name" placeholder="Your Name" className="p-4 border rounded-md w-full focus:outline-yellow-400" required />
+                            <input type="email" name="email" placeholder="Your Email" className="p-4 border rounded-md w-full focus:outline-yellow-400" required />
+                            <textarea name="message" placeholder="Your Message" rows="4" className="p-4 border rounded-md w-full focus:outline-yellow-400" required></textarea>
+                            <button type="submit" className="bg-yellow-500 text-white px-6 py-3 rounded-md hover:bg-yellow-600 transition">
                                 Send Message
                             </button>
                         </form>
+
                     </div>
 
                 </div>

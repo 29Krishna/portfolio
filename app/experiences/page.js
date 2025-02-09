@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col gap-10 p-8">
+    <div className="min-h-screen  flex flex-col gap-10 p-8">
       {/* Page Title */}
       <h1 className="self-center text-5xl font-bold text-gray-800">Experience</h1>
 
@@ -10,7 +10,7 @@ const page = () => {
       <div className="max-w-5xl mx-auto flex flex-col gap-8">
 
         {/* Experience 1: AI/Cloud Intern */}
-        <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-3">
+        <div className="bg-yellow-200 shadow-lg rounded-lg p-6 flex flex-col gap-3">
           <h2 className="text-2xl font-semibold text-gray-800">AI/Cloud Intern</h2>
           <p className="text-lg text-gray-600">Edunet Foundation | July 8, 2024 – Aug 5, 2024</p>
           <h3 className="text-xl font-medium text-gray-700">Worked On:</h3>
@@ -29,7 +29,7 @@ const page = () => {
         </div>
 
         {/* Experience 2: AI Intern */}
-        <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-3">
+        <div className="bg-green-200 shadow-lg rounded-lg p-6 flex flex-col gap-3">
           <h2 className="text-2xl font-semibold text-gray-800">AI Intern</h2>
           <p className="text-lg text-gray-600">Edunet Foundation | Jan 15, 2025 – Present</p>
           <h3 className="text-xl font-medium text-gray-700">Worked On:</h3>

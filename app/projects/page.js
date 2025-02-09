@@ -2,15 +2,15 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col gap-10 p-8">
+        <div className="min-h-screen  flex flex-col gap-10 p-8">
             {/* Page Title */}
             <h1 className="self-center text-5xl font-bold text-gray-800">Projects</h1>
 
             {/* Projects Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 {/* Project 1: Emerald Courier Service System */}
-                <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4">
-                    <img src="courier.png" alt="Emerald Courier Service" className="rounded-md w-full h-48 object-cover" />
+                <div className="bg-yellow-200 shadow-lg rounded-lg p-6 flex flex-col gap-4">
+                    <img src="emerald.png" alt="Emerald Courier Service" className="rounded-md w-full h-48 object-cover" />
                     <h2 className="text-2xl font-semibold text-gray-800">Emerald Courier Service System</h2>
                     <p className="text-gray-600">
                         The Emerald Courier Service System is a robust and efficient
@@ -26,7 +26,7 @@ const page = () => {
                 </div>
 
                 {/* Project 2: Chatbot for GATE 2025 */}
-                <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4">
+                <div className="bg-yellow-200 shadow-lg rounded-lg p-6 flex flex-col gap-4">
                     <img src="chatbot.png" alt="GATE Chatbot" className="rounded-md w-full h-48 object-cover" />
                     <h2 className="text-2xl font-semibold text-gray-800">Chatbot for GATE2025 Webiste</h2>
                     <p className="text-gray-600">
@@ -42,7 +42,7 @@ const page = () => {
                 </div>
 
                 {/* Project 3: Outbreak Sense */}
-                <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4">
+                <div className="bg-yellow-200 shadow-lg rounded-lg p-6 flex flex-col gap-4">
                     <img src="outbreak.png" alt="Outbreak Sense" className="rounded-md w-full h-48 object-cover" />
                     <h2 className="text-2xl font-semibold text-gray-800">OutbreakSense - Machine Learning-Based Disease & Outbreak Detection System
                     </h2>
@@ -59,7 +59,7 @@ const page = () => {
                 </div>
 
                 {/* Project 4: LockVault - Password Manager */}
-                <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col gap-4">
+                <div className="bg-yellow-200 shadow-lg rounded-lg p-6 flex flex-col gap-4">
                     <img src="lockvault.png" alt="LockVault" className="rounded-md w-full h-48 object-cover" />
                     <h2 className="text-2xl font-semibold text-gray-800">LockVault - Password Manager</h2>
                     <p className="text-gray-600">
