@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio
+
+## About
+This is my personal portfolio website built with Next.js, showcasing my projects and skills.
+
+### Developer Information
+- **Name:** Krishna
+- **Email:** krishnagupta2380@gmail.com
+- **Live Demo:** [Portfolio Website](https://portfolio-steel-two-85.vercel.app/)
+
+## Tech Stack
+- [Next.js](https://nextjs.org)
+- React.js
+- Tailwind CSS
+- Vercel (Deployment)
 
 ## Getting Started
 
@@ -10,15 +24,25 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Development
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load fonts.
+
+## Deployment
+
+The project is deployed on [Vercel](https://vercel.com). You can visit the live site at: [https://portfolio-steel-two-85.vercel.app/](https://portfolio-steel-two-85.vercel.app/)
+
+## Contact
+
+For any inquiries or collaboration opportunities, feel free to reach out:
+- Email: krishnagupta2380@gmail.com
+- GitHub: [@29Krishna](https://github.com/29Krishna/portfolio)
 
 ## Learn More
 
