@@ -42,7 +42,7 @@ The project is deployed on [Vercel](https://vercel.com). You can visit the live 
 
 For any inquiries or collaboration opportunities, feel free to reach out:
 - Email: krishnagupta2380@gmail.com
-- GitHub: [@29Krishna](https://github.com/29Krishna/portfolio)
+- GitHub: [@29Krishna](https://github.com/29Krishna)
 
 ## Learn More
 
