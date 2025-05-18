@@ -19,8 +19,8 @@ const page = () => {
                         </p>
                         <p className="flex items-center gap-3 text-xl text-gray-700">
                             <FaEnvelope className="text-yellow-500" />
-                            <a href="mailto:29krishna2004@gmail.com" className="hover:text-yellow-500 transition">
-                                29krishna2004@gmail.com
+                            <a href="mailto:krishnagupta2380@gmail.com" className="hover:text-yellow-500 transition">
+                                krishnagupta2380@gmail.com
                             </a>
                         </p>
                         <p className="flex items-center gap-3 text-xl text-gray-700">
